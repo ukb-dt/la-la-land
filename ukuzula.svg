@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <style>
+      :root { --bg:#0b0f14; --fg:#e6eef8; --muted:#9fb0c3; --rail:#2a3644; --accent:#67e8f9; --accent2:#a78bfa; }
+      .bg { fill: var(--bg); }
+      .fg { fill: var(--fg); font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+      .muted { fill: var(--muted); }
+      .h { font-weight: 700; letter-spacing: .4px; }
+      .small { font-size: 18px; }
+      .label { font-size: 22px; }
+      .title { font-size: 28px; font-weight: 800; }
+      .rail { stroke: var(--rail); stroke-width: 14; stroke-linecap: round; }
+      .rung { stroke: var(--rail); stroke-width: 10; stroke-linecap: round; }
+      .pill { fill: #12202c; stroke: var(--accent); stroke-width: 1.5; }
+      .chip { fill: #171327; stroke: var(--accent2); stroke-width: 1.5; }
+      .badge { fill: #10161f; stroke: #3b82f6; stroke-width: 1.5; }
+      .calc { fill: #161b22; stroke: #34d399; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="100%" height="100%"/>
+  <text x="50" y="70" class="fg title">GOLAS Rosetta Ladder — Zulu/Soga × Canon × Calculus × Greek</text>
+  <text x="50" y="105" class="muted small">Scatter → Grounding → Compression → Collision → Ledger  •  θ′ → θ → Σ → h(t) → ΔS</text>
+
+  <!-- Ladder rails -->
+  <line x1="220" y1="160" x2="220" y2="1080" class="rail"/>
+  <line x1="680" y1="160" x2="680" y2="1080" class="rail"/>
+
+  <!-- Column headers -->
+  <text x="260" y="150" class="fg h">Nguni/Soga</text>
+  <text x="430" y="150" class="fg h">Canon</text>
+  <text x="560" y="150" class="fg h">Calculus</text>
+  <text x="760" y="150" class="fg h">Greek</text>
+
+  <!-- Helper function to draw a rung -->
+  <!-- Rung 1: Okukula -->
+  <line x1="220" y1="260" x2="680" y2="260" class="rung"/>
+  <g transform="translate(70,210)">
+    <rect class="pill" rx="10" width="250" height="60"/>
+    <text x="16" y="38" class="fg label">Okukula / Ukukula</text>
+    <text x="16" y="18" class="muted small">grow • seed/variance</text>
+  </g>
+  <g transform="translate(340,210)">
+    <rect class="chip" rx="10" width="120" height="60"/>
+    <text x="16" y="38" class="fg label">θ′</text>
+    <text x="16" y="18" class="muted small">variance</text>
+  </g>
+  <g transform="translate(480,210)">
+    <rect class="calc" rx="10" width="130" height="60"/>
+    <text x="16" y="38" class="fg label">(x, y)</text>
+    <text x="16" y="18" class="muted small">raw scatter</text>
+  </g>
+  <g transform="translate(640,210)">
+    <rect class="badge" rx="10" width="160" height="60"/>
+    <text x="16" y="38" class="fg label">physis</text>
+    <text x="16" y="18" class="muted small">growth/nature</text>
+  </g>
+
+  <!-- Rung 2: Ukuvula -->
+  <line x1="220" y1="420" x2="680" y2="420" class="rung"/>
+  <g transform="translate(70,370)">
+    <rect class="pill" rx="10" width="250" height="60"/>
+    <text x="16" y="38" class="fg label">Ukuvula</text>
+    <text x="16" y="18" class="muted small">open • ground path</text>
+  </g>
+  <g transform="translate(340,370)">
+    <rect class="chip" rx="10" width="120" height="60"/>
+    <text x="16" y="38" class="fg label">θ</text>
+    <text x="16" y="18" class="muted small">grounding</text>
+  </g>
+  <g transform="translate(480,370)">
+    <rect class="calc" rx="10" width="130" height="60"/>
+    <text x="16" y="38" class="fg label">y(x)</text>
+    <text x="16" y="18" class="muted small">declared channel</text>
+  </g>
+  <g transform="translate(640,370)">
+    <rect class="badge" rx="10" width="160" height="60"/>
+    <text x="16" y="38" class="fg label">archē</text>
+    <text x="16" y="18" class="muted small">opening principle</text>
+  </g>
+
+  <!-- Rung 3: Ukuzula -->
+  <line x1="220" y1="580" x2="680" y2="580" class="rung"/>
+  <g transform="translate(70,530)">
+    <rect class="pill" rx="10" width="250" height="60"/>
+    <text x="16" y="38" class="fg label">Ukuzula</text>
+    <text x="16" y="18" class="muted small">wander/forage • invariants</text>
+  </g>
+  <g transform="translate(340,530)">
+    <rect class="chip" rx="10" width="120" height="60"/>
+    <text x="16" y="38" class="fg label">Σ</text>
+    <text x="16" y="18" class="muted small">compression</text>
+  </g>
+  <g transform="translate(480,530)">
+    <rect class="calc" rx="10" width="130" height="60"/>
+    <text x="16" y="38" class="fg label">dy/dx</text>
+    <text x="16" y="18" class="muted small">gradient (slope)</text>
+  </g>
+  <g transform="translate(640,530)">
+    <rect class="badge" rx="10" width="160" height="60"/>
+    <text x="16" y="38" class="fg label">nomos</text>
+    <text x="16" y="18" class="muted small">law/codex</text>
+  </g>
+
+  <!-- Rung 4: Okukona -->
+  <line x1="220" y1="740" x2="680" y2="740" class="rung"/>
+  <g transform="translate(70,690)">
+    <rect class="pill" rx="10" width="250" height="60"/>
+    <text x="16" y="38" class="fg label">Okukona / Ukukona</text>
+    <text x="16" y="18" class="muted small">collide • stunt • rupture</text>
+  </g>
+  <g transform="translate(340,690)">
+    <rect class="chip" rx="10" width="120" height="60"/>
+    <text x="16" y="38" class="fg label">h(t)</text>
+    <text x="16" y="18" class="muted small">arena of collisions</text>
+  </g>
+  <g transform="translate(480,690)">
+    <rect class="calc" rx="10" width="130" height="60"/>
+    <text x="16" y="38" class="fg label">d²y/dx²</text>
+    <text x="16" y="18" class="muted small">curvature (accel)</text>
+  </g>
+  <g transform="translate(640,690)">
+    <rect class="badge" rx="10" width="160" height="60"/>
+    <text x="16" y="38" class="fg label">agon</text>
+    <text x="16" y="18" class="muted small">struggle/contest</text>
+  </g>
+
+  <!-- Rung 5: Okubona -->
+  <line x1="220" y1="900" x2="680" y2="900" class="rung"/>
+  <g transform="translate(70,850)">
+    <rect class="pill" rx="10" width="250" height="60"/>
+    <text x="16" y="38" class="fg label">Okubona / Ukubona</text>
+    <text x="16" y="18" class="muted small">see/witness • ledger</text>
+  </g>
+  <g transform="translate(340,850)">
+    <rect class="chip" rx="10" width="120" height="60"/>
+    <text x="16" y="38" class="fg label">ΔS</text>
+    <text x="16" y="18" class="muted small">posterior/fruit</text>
+  </g>
+  <g transform="translate(480,850)">
+    <rect class="calc" rx="10" width="130" height="60"/>
+    <text x="16" y="38" class="fg label">∫ y dx</text>
+    <text x="16" y="18" class="muted small">accumulated record</text>
+  </g>
+  <g transform="translate(640,850)">
+    <rect class="badge" rx="10" width="160" height="60"/>
+    <text x="16" y="38" class="fg label">theoria</text>
+    <text x="16" y="18" class="muted small">seeing/contemplation</text>
+  </g>
+
+  <!-- Loop note -->
+  <text x="50" y="1060" class="muted small">Reseed: ΔS → θ′  (SNUx2: Harder • Better • Faster • Stronger)</text>
+  <circle cx="40" cy="1054" r="6" fill="var(--accent)"/>
+  <path d="M40 1054 C 120 980, 780 980, 780 180" stroke="var(--accent)" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+  <polygon points="780,168 786,182 774,182" fill="var(--accent)"/>
+</svg>
